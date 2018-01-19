@@ -1,0 +1,12 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model EpiserverSiteColtonMVC.Models.Pages.StandardPage
+
+<div>
+    <H1>@Html.PropertyFor(m => m.Heading)</H1>
+
+    <div>
+        @Html.PropertyFor(m => m.MainBody)
+    </div>
+</div>
