@@ -8,7 +8,7 @@ using EPiServer.SpecializedProperties;
 namespace EpiserverSiteColtonMVC.Models.Pages
 {
     [ContentType(DisplayName = "StandardPage", GUID = "c1efae11-7bae-432d-8915-e67966a92b8e", Description = "")]
-    public class StandardPage : PageData
+    public class StandardPage : SitePageData
     {
 
         [CultureSpecific]

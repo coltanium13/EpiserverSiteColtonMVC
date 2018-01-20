@@ -9,7 +9,7 @@ using EpiserverSiteColtonMVC.Models.Pages;
 
 namespace EpiserverSiteColtonMVC.Controllers
 {
-    public class StandardPageController : PageController<StandardPage>
+    public class StandardPageController : PageControllerBase<SitePageData>
     {
         public ActionResult Index(StandardPage currentPage)
         {
