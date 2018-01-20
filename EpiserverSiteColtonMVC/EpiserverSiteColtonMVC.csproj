@@ -230,19 +230,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Business\" />
+    <Folder Include="Business\Initialization\" />
     <Folder Include="Models\Media\" />
     <Folder Include="Models\Properties\" />
     <Folder Include="Views\Shared\Layouts\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Static\css\bootstrap-collapse.js" />
-    <Content Include="Static\css\bootstrap-responsive.css" />
+    <Content Include="Static\css\blog-post.css" />
     <Content Include="Static\css\bootstrap.css" />
-    <Content Include="Static\css\editmode.css" />
-    <Content Include="Static\css\editor.css" />
-    <Content Include="Static\css\media.css" />
-    <Content Include="Static\css\style.css" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Static\gfx\carouselbackground.png" />
     <Content Include="Static\gfx\contact.jpg" />
     <Content Include="Static\gfx\exampelspan4.png" />
@@ -290,6 +286,12 @@
     <Content Include="Views\StandardPage\Index.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Views\Shared\ButtonBlock.cshtml" />
+    <Content Include="Views\Shared\_Root.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
