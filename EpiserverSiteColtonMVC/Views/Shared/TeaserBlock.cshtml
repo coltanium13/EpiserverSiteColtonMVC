@@ -1,0 +1,13 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@using EpiserverSiteColtonMVC.Controllers
+
+@model EpiserverSiteColtonMVC.Models.Blocks.TeaserBlock
+
+<div>
+
+    <h2 @Html.EditAttributes(x => x.Heading)>@Model.Heading</h2>
+    <p @Html.EditAttributes(x => x.Text)>@Model.Text</p>
+    <div @Html.EditAttributes(x => x.Image)><img src="@Url.ContentUrl(Model.Image)" /></div>
+
+</div>
